@@ -35,7 +35,7 @@ if [ -n "$2" ]; then
 fi
 
 #带有更新IP的指定数量参数，将赋值第3参数为端口
-if [ -n "" ]; then
+if [ -n "$3" ]; then
     ips="$3"
 fi
 
