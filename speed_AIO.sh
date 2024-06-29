@@ -151,7 +151,7 @@ fi
 # 检测是否已经安装了mmdb-bin
 if ! command -v mmdblookup &> /dev/null; then
     echo "mmdblookup 未安装，开始安装..."
-    update_gengxin
+    apt_update
     sudo apt install mmdb-bin -y
     echo "mmdblookup 安装完成！"
 else
