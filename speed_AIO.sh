@@ -3,7 +3,7 @@
 export LANG=zh_CN.UTF-8
 auth_email="jack_tain@qq.com"    #你的CloudFlare注册账户邮箱 *必填
 auth_key="738e1ba5c68cef1670bdae9ed50330d2a14ef"   #你的CloudFlare账户key,位置在域名概述页面点击右下角获取api key。*必填
-zone_name="qilifuzi.eu.org"     #你的主域名 *必填
+zone_name="qilifuzi.paba.se"     #你的主域名 *必填
 
 area_GEC="hk"    #自动更新的二级域名前缀,必须取hk sg kr jp us等常用国家代码
 port=443 #自定义测速端口 不能为空!!!
